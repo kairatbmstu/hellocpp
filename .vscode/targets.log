@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Aug 13 14:06:30 2022
+# Make data base, printed on Sat Aug 13 15:12:55 2022
 
 # Variables
 
@@ -43,7 +43,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
 # environment
-PWD = /home/kairat/workspace/hellocpp
+PWD = /home/kairat/workspace/cpp_template_project
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
@@ -67,7 +67,7 @@ CMAKE_COMMAND = /usr/bin/cmake
 # makefile
 MAKEFLAGS = pqrR
 # makefile
-CURDIR := /home/kairat/workspace/hellocpp
+CURDIR := /home/kairat/workspace/cpp_template_project
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
@@ -243,9 +243,9 @@ LC_IDENTIFICATION = kk_KZ.UTF-8
 
 # RCS: could not be stat'd.
 # SCCS: could not be stat'd.
-# . (device 2050, inode 5122566): 13 files, no impossibilities.
+# . (device 2050, inode 5380634): 15 files, no impossibilities.
 
-# 13 files, no impossibilities in 3 directories.
+# 15 files, no impossibilities in 3 directories.
 
 # Implicit Rules
 
@@ -286,6 +286,7 @@ depend:
 #  recipe to execute (from 'Makefile', line 116):
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 
+ 
 src/main.s: src/main.cpp.s
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
@@ -294,7 +295,6 @@ src/main.s: src/main.cpp.s
 
 default_target: all
 #  Phony target (prerequisite of .PHONY).
- 
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
@@ -509,12 +509,12 @@ src/main.cpp.s:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 51 / storage = 551 B / avg = 10 B
-# current buf: size = 8162 B / used = 551 B / count = 51 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 53 / storage = 563 B / avg = 10 B
+# current buf: size = 8162 B / used = 563 B / count = 53 / avg = 10 B
 
-# strcache performance: lookups = 165 / hit rate = 69%
+# strcache performance: lookups = 167 / hit rate = 68%
 # hash-table stats:
-# Load=51/8192=1%, Rehash=0, Collisions=0/165=0%
-# Finished Make data base on Sat Aug 13 14:06:30 2022
+# Load=53/8192=1%, Rehash=0, Collisions=0/167=0%
+# Finished Make data base on Sat Aug 13 15:12:55 2022
 
  
